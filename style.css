@@ -403,10 +403,10 @@ nav .fas {
 
 /* Hover Effects */
 .service-card:hover {
-  background: var(--primary-color);
+  background: #ff4d4d;
   transform: translateY(-10px) scale(1.02);
-  border-color: var(--primary-color);
-  box-shadow: 0 20px 40px rgba(255, 0, 79, 0.4);
+  border-color: #ff4d4d;
+  box-shadow: 0 20px 40px rgba(255, 77, 77, 0.4);
 }
 
 .service-card:hover .service-number {
