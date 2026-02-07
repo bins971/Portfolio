@@ -401,6 +401,51 @@ nav .fas {
   transition: all 0.3s;
 }
 
+/* Hover Effects */
+.service-card:hover {
+  background: var(--primary-color);
+  transform: translateY(-10px) scale(1.02);
+  border-color: var(--primary-color);
+  box-shadow: 0 20px 40px rgba(255, 0, 79, 0.4);
+}
+
+.service-card:hover .service-number {
+  color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-10px) scale(1.1);
+}
+
+.service-card:hover i {
+  color: var(--white);
+  transform: scale(1.1) rotate(-10deg);
+}
+
+.service-card:hover h2 {
+  color: var(--white);
+}
+
+.service-card:hover p {
+  color: var(--white);
+}
+
+.service-card:hover a {
+  color: var(--white);
+}
+
+.service-card a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: var(--white);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s;
+}
+
+.service-card:hover a::after {
+  width: 100%;
+}
+
 
 /* ===================== PORTFOLIO ===================== */
 #portfolio {
